@@ -43,9 +43,11 @@ extension ViewController {
             sender.text = "0.00"
             
         }
-        
     }
     
+    @IBAction func handleValueChanged(sender: UITextField) {
+        print("changed")
+    }
     @IBAction func handleEditingEnd(sender: UITextField) {
         if sender.text == "0.00" {
             sender.text = ViewController.placeholderString
@@ -65,6 +67,8 @@ extension ViewController: UITextFieldDelegate {
         guard currentString.characters.count < ViewController.maxReadingLength + 2 else { return false }
         
         textField.text = convert(toReadingsString: (currentString as String))
+        
+        self.handleValueChanged(textField)
         
         return false
     }

@@ -28,6 +28,7 @@
                                         <connections>
                                             <action selector="handleEditingEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="O4P-xC-Iri"/>
                                             <action selector="handleEditingStart:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="0d6-mJ-d3v"/>
+                                            <action selector="handleValueChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="nU4-Fd-pX0"/>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="xBH-S2-KHq"/>
                                         </connections>
                                     </textField>
