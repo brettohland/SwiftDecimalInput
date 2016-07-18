@@ -12,26 +12,7 @@
 		832362DF1D3D253B00C9FACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832362DD1D3D253B00C9FACC /* Main.storyboard */; };
 		832362E11D3D253B00C9FACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832362E01D3D253B00C9FACC /* Assets.xcassets */; };
 		832362E41D3D253B00C9FACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832362E21D3D253B00C9FACC /* LaunchScreen.storyboard */; };
-		832362EF1D3D253B00C9FACC /* DecimalInputTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832362EE1D3D253B00C9FACC /* DecimalInputTestTests.swift */; };
-		832362FA1D3D253B00C9FACC /* DecimalInputTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832362F91D3D253B00C9FACC /* DecimalInputTestUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		832362EB1D3D253B00C9FACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 832362CE1D3D253B00C9FACC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 832362D51D3D253B00C9FACC;
-			remoteInfo = DecimalInputTest;
-		};
-		832362F61D3D253B00C9FACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 832362CE1D3D253B00C9FACC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 832362D51D3D253B00C9FACC;
-			remoteInfo = DecimalInputTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		832362D61D3D253B00C9FACC /* DecimalInputTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecimalInputTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		832362E01D3D253B00C9FACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		832362E31D3D253B00C9FACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		832362E51D3D253B00C9FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		832362EA1D3D253B00C9FACC /* DecimalInputTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalInputTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		832362EE1D3D253B00C9FACC /* DecimalInputTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalInputTestTests.swift; sourceTree = "<group>"; };
-		832362F01D3D253B00C9FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		832362F51D3D253B00C9FACC /* DecimalInputTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalInputTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		832362F91D3D253B00C9FACC /* DecimalInputTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalInputTestUITests.swift; sourceTree = "<group>"; };
-		832362FB1D3D253B00C9FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		832362D31D3D253B00C9FACC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832362E71D3D253B00C9FACC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832362F21D3D253B00C9FACC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				832362D81D3D253B00C9FACC /* DecimalInputTest */,
-				832362ED1D3D253B00C9FACC /* DecimalInputTestTests */,
-				832362F81D3D253B00C9FACC /* DecimalInputTestUITests */,
 				832362D71D3D253B00C9FACC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				832362D61D3D253B00C9FACC /* DecimalInputTest.app */,
-				832362EA1D3D253B00C9FACC /* DecimalInputTestTests.xctest */,
-				832362F51D3D253B00C9FACC /* DecimalInputTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				832362E51D3D253B00C9FACC /* Info.plist */,
 			);
 			path = DecimalInputTest;
-			sourceTree = "<group>";
-		};
-		832362ED1D3D253B00C9FACC /* DecimalInputTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				832362EE1D3D253B00C9FACC /* DecimalInputTestTests.swift */,
-				832362F01D3D253B00C9FACC /* Info.plist */,
-			);
-			path = DecimalInputTestTests;
-			sourceTree = "<group>";
-		};
-		832362F81D3D253B00C9FACC /* DecimalInputTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				832362F91D3D253B00C9FACC /* DecimalInputTestUITests.swift */,
-				832362FB1D3D253B00C9FACC /* Info.plist */,
-			);
-			path = DecimalInputTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = 832362D61D3D253B00C9FACC /* DecimalInputTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		832362E91D3D253B00C9FACC /* DecimalInputTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 832363011D3D253B00C9FACC /* Build configuration list for PBXNativeTarget "DecimalInputTestTests" */;
-			buildPhases = (
-				832362E61D3D253B00C9FACC /* Sources */,
-				832362E71D3D253B00C9FACC /* Frameworks */,
-				832362E81D3D253B00C9FACC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				832362EC1D3D253B00C9FACC /* PBXTargetDependency */,
-			);
-			name = DecimalInputTestTests;
-			productName = DecimalInputTestTests;
-			productReference = 832362EA1D3D253B00C9FACC /* DecimalInputTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		832362F41D3D253B00C9FACC /* DecimalInputTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 832363041D3D253B00C9FACC /* Build configuration list for PBXNativeTarget "DecimalInputTestUITests" */;
-			buildPhases = (
-				832362F11D3D253B00C9FACC /* Sources */,
-				832362F21D3D253B00C9FACC /* Frameworks */,
-				832362F31D3D253B00C9FACC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				832362F71D3D253B00C9FACC /* PBXTargetDependency */,
-			);
-			name = DecimalInputTestUITests;
-			productName = DecimalInputTestUITests;
-			productReference = 832362F51D3D253B00C9FACC /* DecimalInputTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +96,6 @@
 				TargetAttributes = {
 					832362D51D3D253B00C9FACC = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					832362E91D3D253B00C9FACC = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 832362D51D3D253B00C9FACC;
-					};
-					832362F41D3D253B00C9FACC = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 832362D51D3D253B00C9FACC;
 					};
 				};
 			};
@@ -218,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				832362D51D3D253B00C9FACC /* DecimalInputTest */,
-				832362E91D3D253B00C9FACC /* DecimalInputTestTests */,
-				832362F41D3D253B00C9FACC /* DecimalInputTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +128,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		832362E81D3D253B00C9FACC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832362F31D3D253B00C9FACC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		832362E61D3D253B00C9FACC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				832362EF1D3D253B00C9FACC /* DecimalInputTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832362F11D3D253B00C9FACC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				832362FA1D3D253B00C9FACC /* DecimalInputTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		832362EC1D3D253B00C9FACC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 832362D51D3D253B00C9FACC /* DecimalInputTest */;
-			targetProxy = 832362EB1D3D253B00C9FACC /* PBXContainerItemProxy */;
-		};
-		832362F71D3D253B00C9FACC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 832362D51D3D253B00C9FACC /* DecimalInputTest */;
-			targetProxy = 832362F61D3D253B00C9FACC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		832362DD1D3D253B00C9FACC /* Main.storyboard */ = {
@@ -419,52 +269,6 @@
 			};
 			name = Release;
 		};
-		832363021D3D253B00C9FACC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DecimalInputTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ampersandsoftworks.DecimalInputTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecimalInputTest.app/DecimalInputTest";
-			};
-			name = Debug;
-		};
-		832363031D3D253B00C9FACC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DecimalInputTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ampersandsoftworks.DecimalInputTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecimalInputTest.app/DecimalInputTest";
-			};
-			name = Release;
-		};
-		832363051D3D253B00C9FACC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DecimalInputTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ampersandsoftworks.DecimalInputTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = DecimalInputTest;
-			};
-			name = Debug;
-		};
-		832363061D3D253B00C9FACC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DecimalInputTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ampersandsoftworks.DecimalInputTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = DecimalInputTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,22 +286,6 @@
 			buildConfigurations = (
 				832362FF1D3D253B00C9FACC /* Debug */,
 				832363001D3D253B00C9FACC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		832363011D3D253B00C9FACC /* Build configuration list for PBXNativeTarget "DecimalInputTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				832363021D3D253B00C9FACC /* Debug */,
-				832363031D3D253B00C9FACC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		832363041D3D253B00C9FACC /* Build configuration list for PBXNativeTarget "DecimalInputTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				832363051D3D253B00C9FACC /* Debug */,
-				832363061D3D253B00C9FACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
